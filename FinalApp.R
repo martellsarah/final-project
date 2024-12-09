@@ -7,7 +7,7 @@ library(DT)
 library(tidyr)
 
 # Read the dataset
-jobs_data <- read.csv("~/Desktop/usa_jobs.csv")
+jobs_data <- read.csv("~/Desktop/job_descriptions_first_10000.csv")
 
 # Improved salary conversion function
 convert_salary <- function(salary_range) {
